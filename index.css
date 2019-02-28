@@ -1,0 +1,57 @@
+
+
+/* hierarchy 
+<h1 style ="">
+<h1 id="">
+<h1 class=""> 
+<h1>
+~~ attribute selectors~~
+a[href=http] 
+*= anywhere 
+^= starts 
+$=ends
+
+div p{} decendent 
+div + p{}
+div ~p{}
+
+psuedo selectors <- more of a behavior 
+div:hover {
+  background: blue;}
+  :focus 
+  :blur 
+  
+  ~~Animations~~ 
+  div { 
+   margin-left: 6px;
+  } 
+  .clicked {
+    margin-left: 200px;
+    trasmition: margin 
+  }
+}
+*/
+.red {
+  color: yellow;
+}
+
+#blue {
+  color: blue;
+}
+
+h1, h2, h3, p span{
+  color: yellow;
+  padding-top: 16px; 
+  padding-bottom: 16px;
+  border:15px solid black;
+  border-radius: 25%;
+  
+  /* padding: ; will apply to all directions, padding shorthand goes clockwise padding: 16px, 6px, 16px, 8px,; same for margins (margin: 16px 8px 16px 8px; */
+  
+  
+  
+}
+
+
+
+/* CSS Box: Margin - if you have a margin bottom that intersects a martin top they combine, Padding (adding space around text), border(where padding ends) every piece of hmtl takes up its own space and the box method goes around it */ 

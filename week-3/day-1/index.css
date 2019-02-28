@@ -1,0 +1,67 @@
+/*body, html { 
+  height: 100%;
+} */
+
+nav { 
+  background-color: blue;
+  color: white;
+  position: absolute; 
+  /* fixed: nav stays where you put it and scrolls with you, add height that matches column margin
+    abolsoute: stays where you put it even when scrolling */
+  top: 0; /* no space between top of browser (can change to make elsewhere like the bottom (400px) */
+  width: 100%;
+  height: 75px;
+}
+/*
+div {
+  margin-top: 150px;
+  display: inline;
+  /* inline elements cant have a margin-bottom or margin top
+  and they cant have width*/
+}
+
+/*
+.inline-block {
+  display: inline-block;
+  width: 40%;
+  margin-top: 25px;
+  margin-bottom: 25%;
+  border: 1px solid black;
+  
+  
+}
+.block { 
+  display: block;
+}
+  /* div, p, h1-h6 */
+  /*
+  .table-cell {
+    display: table-cell;
+    
+  }
+  */
+  
+  .container {
+    background-color: blue;
+    height: 250px;
+  }
+  
+  
+  
+  .column { 
+    margin-top: 75px;
+    height: 10vh; /* vw, vh - full screen w/o making everything full screen */
+    width: 100vw;
+    
+   /* box-sizing: border-box;
+      verticle-align: bottom;
+      overflow: scroll;
+      positionL
+    min-width: 900px;
+    font-size: 20px;
+    display: inline-block;
+    background-color: orange;
+    margin: 16px;
+    border: 1px solid black;
+    
+  }
